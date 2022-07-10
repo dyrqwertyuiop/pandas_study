@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import pandas as pd删除一列
+import pandas as pd
 # 读取数据
 df = pd.read_csv('./beijing_tianqi_2018.csv')
 # 修改数据值

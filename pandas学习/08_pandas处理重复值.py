@@ -12,5 +12,6 @@ print(df.duplicated('姓名'))
 print(df.drop_duplicates('姓名'))
 
 # 检测分数这一列是否存在重复,是返回True,不是返回False
+print(df.duplicated('分数'))
 # 删除分数具有重复值的这一行
 print(df.drop_duplicates('分数'))

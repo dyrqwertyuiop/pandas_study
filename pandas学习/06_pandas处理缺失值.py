@@ -8,13 +8,13 @@ df = pd.read_excel('./student_excel.xlsx',skiprows=2)
 
 # 1.检测空值isnull() (空为True,不空为False) (notnull空为False不空为True)
 # 查看整个表的空值
-# print(df.isnull())
+print(df.isnull())
 # 检测单列空值
 # print(df['分数'].isnull())
 
 # 2.删除空值dropna(axis, how, inplace)
 # axis:删除的是行还是列,0是行index,1是列columns
-# how: any:任何值都会被删除  all: 所有值为空才会删除
+# how: any:有一个值为空就会被删除  all: 所有值为空才会删除
 # inplace: True / False  是否修改当前对象
 
 # 删除所有空的行

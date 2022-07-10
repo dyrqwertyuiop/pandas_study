@@ -11,7 +11,7 @@ import pandas as pd
 # s = pd.Series(['dog','bie','pig','cat'])
 # print(s)
 # # 创建具有标签的索引
-# s1 = pd.Series(['dog','bie','pig','cat'],index=['a','b','c','d'])
+s1 = pd.Series(['dog','bie','pig','cat'],index=['a','b','c','d'])
 # print(s1)
 # # 获取series的索引
 # print(s1.index)
@@ -29,7 +29,7 @@ df = pd.DataFrame(data)
 
 # dataframe的数据查询
 # 查询一列
-# print(df['name'])
+print(df['name'])
 # 查询多列
 print(df[['name','score']])
 
